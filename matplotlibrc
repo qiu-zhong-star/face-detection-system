@@ -1,0 +1,3 @@
+backend: TkAgg
+font.sans-serif: Microsoft YaHei, SimHei, PingFang SC
+axes.unicode_minus: False
