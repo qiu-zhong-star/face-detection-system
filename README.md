@@ -43,14 +43,18 @@ face-detection-system/
 └── README.md                  # 项目说明
 运行效果
 摄像头打开后，实时检测人脸并用绿色矩形框标注
+![人脸检测效果](screenshot_face.png)
 
 左上角显示当前人脸数和总签到数
 
 按空格键签到，控制台输出签到成功信息
-
+![控制台输出](screenshot_console.png)
 按 L 键查看所有历史签到记录
 
 按 C 键清空所有记录和照片
+###  CSV 签到记录
 
-作者
-GitHub：qiu-zhong-star
+所有签到记录自动保存到 CSV 文件，可用 Excel 打开查看：
+
+![CSV记录](screenshot_csv.png)
+作者 GitHub：qiu-zhong-star
