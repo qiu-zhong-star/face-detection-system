@@ -35,7 +35,6 @@ L	查看历史签到记录
 C	清空所有记录（需确认）
 ESC	退出程序
 项目结构
-text
 face-detection-system/
 ├── face_detection_system.py   # 主程序
 ├── checkin_log.csv            # 签到记录（自动生成）
