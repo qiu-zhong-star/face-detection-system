@@ -45,17 +45,17 @@ face-detection-system/
 人脸检测
 摄像头打开后，实时检测人脸并用绿色矩形框标注：
 
-https://screenshot_face.png
+![人脸检测效果](screenshot_face.png)
 
 签到控制台
 按空格键签到，控制台输出签到成功信息：
 
-https://screenshot_console.png
+![控制台输出](screenshot_console.png)
 
 CSV 记录
 所有签到记录自动保存到 CSV 文件，可用 Excel 打开查看：
 
-https://screenshot_csv.png
+![CSV记录](screenshot_csv.png)
 
 演示视频
 点击观看完整操作演示：【13后卫】人脸检测签到系统演示
