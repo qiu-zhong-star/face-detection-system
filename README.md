@@ -1,60 +1,82 @@
 markdown
+
 # 人脸检测签到模拟系统
-
 基于 OpenCV 的人脸检测签到系统，支持实时检测、签到拍照、记录管理。
-
 ## 功能特点
-
 - **实时人脸检测**：使用 Haar Cascade 分类器，绿色矩形框标注人脸位置
 - **签到功能**：按空格键签到，自动保存照片到本地
 - **记录管理**：CSV 格式存储签到记录，支持查看历史（L 键）和清空记录（C 键）
 - **画面信息显示**：实时显示当前人脸数和总签到数
 - **无人脸提示**：检测不到人脸时，画面中央显示红色提示文字
-
 ## 技术栈
-
 - Python 3.x
 - OpenCV（人脸检测）
 - CSV（数据存储）
-
 ## 使用方法
-
 1. 安装依赖：
-   ```bash
-   pip install opencv-python
-运行程序：
+ ```bash
+ pip install opencv-python
 
-bash
-python face_detection_system.py
-按空格键签到，L 键查看记录，C 键清空，ESC 退出
+2.  运行程序：
+    
+    bash
+    
+    python face_detection_system.py
+    
+3.  按空格键签到，L 键查看记录，C 键清空，ESC 退出
+    
 
-键盘操作
-按键	功能
-空格	签到（需检测到人脸）
-L	查看历史签到记录
-C	清空所有记录（需确认）
-ESC	退出程序
-项目结构
+## 键盘操作
+
+按键              功能
+
+空格              签到（需检测到人脸）
+
+L                 查看历史签到记录
+
+C                清空所有记录（需确认）
+
+ESC              退出程序
+
+
+
+## 项目结构
+
 text
+
 face-detection-system/
 ├── face_detection_system.py   # 主程序
 ├── checkin_log.csv            # 签到记录（自动生成）
 ├── checkin_images/            # 签到照片（自动生成）
-└── README.md                  # 项目说明
-运行效果
-摄像头打开后，实时检测人脸并用绿色矩形框标注
-![人脸检测效果](screenshot_face.png)
+└──  README.md                  # 项目说明
+             
 
-左上角显示当前人脸数和总签到数
+## 运行效果
 
-按空格键签到，控制台输出签到成功信息
-![控制台输出](screenshot_console.png)
-按 L 键查看所有历史签到记录
+### 人脸检测
 
-按 C 键清空所有记录和照片
-###  CSV 签到记录
+摄像头打开后，实时检测人脸并用绿色矩形框标注：
+
+[https://screenshot_face.png](https://screenshot_face.png/)
+
+### 签到控制台
+
+按空格键签到，控制台输出签到成功信息：
+
+[https://screenshot_console.png](https://screenshot_console.png/)
+
+### CSV 记录
 
 所有签到记录自动保存到 CSV 文件，可用 Excel 打开查看：
 
-![CSV记录](screenshot_csv.png)
-作者 GitHub：qiu-zhong-star
+[https://screenshot_csv.png](https://screenshot_csv.png/)
+
+## 演示视频
+
+点击观看完整操作演示：[【13后卫】人脸检测签到系统演示](https://b23.tv/Ugk8nw4)
+
+视频内容包括：人脸检测 → 空格签到 → L 键查看记录 → C 键清空 → ESC 退出。
+
+----------
+
+**作者**：[qiu-zhong-star](https://github.com/qiu-zhong-star)
