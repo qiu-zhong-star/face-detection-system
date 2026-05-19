@@ -1,4 +1,3 @@
-markdown
 # 人脸检测签到模拟系统
 
 基于 OpenCV 的人脸检测签到系统，支持实时检测、签到拍照、记录管理。
@@ -24,7 +23,6 @@ markdown
    pip install opencv-python
 运行程序：
 
-bash
 python face_detection_system.py
 按空格键签到，L 键查看记录，C 键清空，ESC 退出
 
@@ -57,7 +55,7 @@ CSV 记录
 ![CSV记录](screenshot_csv.png)
 
 演示视频
-点击观看完整操作演示：【13后卫】人脸检测签到系统演示
+点击观看完整操作演示：【【13后卫】第一支视频求三连！-哔哩哔哩】 https://b23.tv/Ugk8nw4
 
 视频内容包括：人脸检测 → 空格签到 → L 键查看记录 → C 键清空 → ESC 退出。
 
